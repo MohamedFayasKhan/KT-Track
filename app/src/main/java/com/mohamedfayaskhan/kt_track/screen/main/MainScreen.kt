@@ -111,7 +111,7 @@ fun MainScreen(navController: NavHostController) {
     LaunchedEffect(Unit) {
         while (true) {
             mainViewModel.getLocations()
-            delay((1 * 60 * 500) + 500)
+            delay((15 * 60 * 1000) + 1000)
         }
     }
 
