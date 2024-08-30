@@ -46,7 +46,7 @@ class LocationServices : LifecycleService() {
         fusedLocationClient = LocationServices
             .getFusedLocationProviderClient(this)
         locationRequest = LocationRequest
-            .Builder(1 * 60 * 500).build()
+            .Builder(15 * 60 * 1000).build()
 
         locationCallback = object : LocationCallback() {
             override fun onLocationResult(locationResult: LocationResult) {
