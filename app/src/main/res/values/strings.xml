@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">KT-Track</string>
+    <string name="login">Login</string>
+    <string name="mail">Mail</string>
+    <string name="password">Password</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="enter_your_mail">Enter your mail</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="confirm_your_password">Confirm your password</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="name">Name</string>
+    <string name="update_password">Update Password</string>
+    <string name="update">Update</string>
 </resources>
